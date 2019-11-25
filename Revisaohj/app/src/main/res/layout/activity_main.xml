@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-
+    android:layout_gravity="center"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,46 +13,58 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp">
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        >
 
         <TextView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:text="KEY"
-            android:textSize="50dp"
-            />
-        <TextView
-            android:layout_width="310dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
             android:id="@+id/TVRONALDO"
-            android:text="ronaldo bom"
+            android:text="Revisão Hoje"
+            android:textColor="@color/White"
+            android:textStyle="bold"
             android:textSize="50dp"
             />
     </LinearLayout>
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|end"
+        android:textColor="@color/White"
+        android:text="PoweredBy: RonaldoJRK"
+        android:layout_gravity="center"
+        />
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginTop="20dp"
         android:gravity="center_horizontal">
         <Button
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:text="Cadastro"
+            android:backgroundTint="@color/White"
             android:id="@+id/btmCadastro"
             android:gravity="center"/>
         <Button
             android:layout_width="120dp"
+            android:backgroundTint="@color/White"
             android:layout_height="120dp"
             android:text="editar"
             android:id="@+id/btneditar"
             android:gravity="center"/>
         <Button
             android:layout_width="120dp"
+            android:backgroundTint="@color/White"
             android:layout_height="120dp"
             android:text="visualizar"
             android:id="@+id/btnVisualizar"
             android:gravity="center"/>
     </LinearLayout>
+
+
 
 </LinearLayout>

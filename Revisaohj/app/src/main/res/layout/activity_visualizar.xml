@@ -12,7 +12,16 @@
     android:background="@color/bluehard"
 
     >
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pesquisar"
+        android:fontFamily="casual"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
@@ -21,6 +30,7 @@
         <AutoCompleteTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/White"
             android:id="@+id/autoCompleteTextView"
             android:completionThreshold="2"
             android:completionHint="Selecione uma cidade"
@@ -42,39 +52,49 @@
             android:layout_height="50dp"
             android:gravity="center"
             android:text="pesquisar"
+            android:backgroundTint="@color/White"
             android:id="@+id/BTNpesquisar"/>
     </LinearLayout>
 
     <TextView
+        android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:id="@+id/TXTnome1"
-        android:hint="nome"
+        android:hint="Nome"
+        android:textColor="@color/White"
+        android:textColorHint="@color/White"
         android:text="@null"
         android:textSize="20dp"/>
     <TextView
+        android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:hint="email"
+        android:textColor="@color/White"
+        android:textColorHint="@color/White"
+        android:hint="Email:"
         android:id="@+id/TXTemail1"
         android:text="@null"
         android:textSize="20dp"/>
     <TextView
+        android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:hint="cpf"
+        android:hint="Cpf"
+        android:textColor="@color/White"
+        android:textColorHint="@color/White"
         android:id="@+id/TXTcpf1"
         android:text="@null"
         android:textSize="20dp"/>
     <TextView
+        android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:id="@+id/TXTidade1"
-        android:hint="idade"
+        android:textColor="@color/White"
+        android:textColorHint="@color/White"
+        android:hint="Idade"
         android:text="@null"
         android:textSize="20dp"/>
-
-
-
 
 </LinearLayout>
