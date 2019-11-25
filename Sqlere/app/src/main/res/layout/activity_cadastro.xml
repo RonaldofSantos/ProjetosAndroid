@@ -30,6 +30,7 @@
             android:layout_weight="1"
             android:text="Nome"
             android:textColor="@color/branco"
+            android:layout_marginBottom="20dp"
             />
         <EditText
             android:inputType="text"
@@ -44,6 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Escola"
+            android:layout_marginBottom="20dp"
             android:textColor="@color/branco"
 
             />
@@ -60,6 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="disciplina"
+            android:layout_marginBottom="20dp"
             android:textColor="@color/branco"
             />
         <EditText

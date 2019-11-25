@@ -22,12 +22,12 @@ public class Cadastro extends AppCompatActivity {
         etescola =(EditText) findViewById(R.id.ETescola);
         etdisciplina =(EditText) findViewById(R.id.ETdisciplina);
         BTN = (Button) findViewById(R.id.BTNcadconfirm);
-        voltar = (Button) findViewById(R.id.VoltarCA);
+        voltar = (Button) findViewById(R.id.VoltarCA2);
         voltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent j = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(j);
+                Intent a = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(a);
                 finish();
             }
         });

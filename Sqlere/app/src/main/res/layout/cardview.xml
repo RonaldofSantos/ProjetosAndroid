@@ -18,18 +18,18 @@
             android:orientation="horizontal"
             android:paddingLeft="10dp">
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="@drawable/ic_launcher_background"/>
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/default_avatar"/>
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textSize="14sp"
                 android:id="@+id/TXTid1"
                 android:textStyle="bold"
                 android:hint="id"
-                android:layout_marginLeft="10dp"
-android:layout_marginRight="20dp"
+                android:layout_marginLeft="1dp"
+android:layout_marginRight="1dp"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -37,7 +37,7 @@ android:layout_marginRight="20dp"
                 android:hint="nome"
                 android:id="@+id/TXTnome1"
 
-                android:textSize="20sp"/>
+                android:textSize="14sp"/>
 
 
         </LinearLayout>
@@ -45,19 +45,19 @@ android:layout_marginRight="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginRight="70dp">
             <TextView
-                android:layout_width="50dp"
-                android:layout_weight="4"
+                android:layout_width="wrap_content"
+                android:layout_weight="2"
                 android:layout_height="wrap_content"
                 android:hint="escola"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="20dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
                 android:id="@+id/TXTescola1"
                 android:textSize="14sp"/>
             <TextView
-                android:layout_width="60dp"
+                android:layout_width="wrap_content"
                 android:layout_weight="4"
                 android:layout_height="wrap_content"
                 android:id="@+id/TXTdisci1"
@@ -65,8 +65,16 @@ android:layout_marginRight="20dp"
 
                 android:textSize="14sp"/>
 
+
         </LinearLayout>
+        <CheckBox
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/tok">
+
+        </CheckBox>
 
     </LinearLayout>
+
 
 </androidx.cardview.widget.CardView>

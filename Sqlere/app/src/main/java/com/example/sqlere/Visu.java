@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.database.Cursor;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -41,6 +42,8 @@ public class Visu extends AppCompatActivity {
         }
         ProfessorAdapter adapter = new ProfessorAdapter(this,PROF2);
         recy.setAdapter(adapter);
+
+
 
 
     }
