@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sqlere</string>
+
+    <string name="pref_key">preferencia</string>
+    <string name="pref_email">preferencia-email</string>
+    <string name="pref_nome">preferencia-nome</string>
+</resources>

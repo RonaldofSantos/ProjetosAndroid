@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cadastrar2"
+    android:orientation="vertical"
+    android:paddingTop="0dp"
+    android:gravity="center"
+    android:paddingBottom="30dp"
+    android:background="@color/roxo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem vindo faça Seu Cadastro"
+        android:layout_marginBottom="60dp"
+        android:textColor="@color/branco"/>
+
+    <EditText
+        android:id="@+id/loginCA"
+        android:hint="nome"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textColor="@color/branco"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/emailCA"
+        android:hint="email"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textColor="@color/branco"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/senhaCA"
+        android:hint="senha"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/VoltarCA"
+
+            android:background="@drawable/abc_vector_test"
+            android:textColor="@color/branco"
+            android:layout_marginRight="40dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cadastrarCA"
+            android:text="cadastrar"
+            android:background="@color/White"
+            android:textColor="@color/branco"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
